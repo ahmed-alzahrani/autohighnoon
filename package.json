@@ -1,0 +1,24 @@
+{
+  "name": "autohighnoon",
+  "version": "1.0.0",
+  "description": "a twitter bot that tracks where and when it is high noon around the world",
+  "main": "autohighnoon.js",
+  "scripts": {
+    "start": "node autohighnoon.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "author": "Ahmed Al-Zahrani",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment-timezone": "^0.5.13",
+    "moment-timezone-all": "^0.5.5",
+    "node-cron": "^1.2.0",
+    "time": "^0.12.0",
+    "twit": "^2.2.9"
+  }
+}
